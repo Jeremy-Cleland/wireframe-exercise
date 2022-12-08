@@ -5,7 +5,7 @@ html {
 }
 
 header {
-  background-color: #808080;
+  background-color: #4b4b4b;
 }
 
 nav {
@@ -83,8 +83,8 @@ button:hover {
 footer {
   display: flex;
   margin-top: 30px;
+  background-color: #4b4b4b;
   width: 100%;
-  background-color: #808080;
 
 }
 
@@ -92,4 +92,5 @@ footer img {
   max-width: 960px;
   margin: 0 auto;
   padding: 10px 0;
+  background-color: #4b4b4b;
 }
