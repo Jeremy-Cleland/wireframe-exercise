@@ -1,7 +1,25 @@
 header {
+  display: flex;
+  gap: 1rem;
 
-  background-color: #444;
 }
+
+nav {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+li {
+  flex-grow: 1;
+}
+
 
 main {
   width: 960px;
