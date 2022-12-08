@@ -1,11 +1,11 @@
 html {
-  font-family: sans-serif, Arial, Helvetica, sans-serif, Tahoma, sans-serif;
+  font-family: "Gill Sans Extrabold", sans-serif;
+  font-size: .9rem;
+  background-color: #f6f6f6;
 }
 
 header {
-
-  background-color: #f6f6f6;
-
+  background-color: #808080;
 }
 
 nav {
@@ -20,7 +20,7 @@ nav ul {
 
 }
 
-li {
+nav ul li {
   padding: 5px;
 
 }
@@ -28,18 +28,13 @@ li {
 main {
   width: 960px;
   margin: auto;
-
-}
-
-p {
-  height: 300px;
-  overflow: auto;
+  background-color: #f6f6f6;
 }
 
 main ul {
   display: flex;
   justify-content: space-between;
-  margin: 30px auto;
+  margin: 20px auto;
 
 }
 
@@ -65,7 +60,7 @@ p {
   /* width: 50%; */
   height: 450px;
   overflow-y: scroll;
-  scrollbar-color: black #808080;
+  scrollbar-color: #808080;
   scrollbar-width: thick;
   font-size: 1rem;
   line-height: 1.5;
@@ -81,7 +76,7 @@ button {
 
 button:hover {
   transition-delay: 350ms;
-  background-color: green;
+  background-color: #808080;
   color: black;
 }
 
@@ -89,7 +84,7 @@ footer {
   display: flex;
   margin-top: 30px;
   width: 100%;
-  background-color: #444;
+  background-color: #808080;
 
 }
 
